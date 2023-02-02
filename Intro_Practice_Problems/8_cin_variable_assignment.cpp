@@ -18,7 +18,7 @@ int main(){
     cout << "What is your major? ";
     // cin >> major;
     getline(cin, major);
-
+    
     cout << "What is your first name? ";
     // cin >> first;
     getline(cin, first);
