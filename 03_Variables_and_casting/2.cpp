@@ -5,11 +5,13 @@ using namespace std;
 
 int main(){
     float length, width;
-
-    cout << "What is the length and width of a rectangle?\n";
-    
     cin >> length >> width;
-    cout << length << " * " << width << " = " << length*width << endl;
+
+    cout
+        << length << " * "
+        << width  << "\n"
+        << length*width
+        << endl;
 
     return 0;
 }

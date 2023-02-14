@@ -14,8 +14,9 @@ using namespace std;
 int main(){
     string name = "first_name";
     char middle_initial = 'D';
-    int age = 20;
-    float GPA = 3.9;
+    int age = 25;
+    float GPA = 4.8;
+
     cout
         << name << ", "
         << middle_initial << ", "
@@ -23,5 +24,6 @@ int main(){
         << GPA
         << endl;
 
+    return 0;
 
 }
