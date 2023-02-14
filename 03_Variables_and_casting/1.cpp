@@ -6,18 +6,22 @@
  4. GPA
 */
 
-#include <iostream>
-#include <iomanip>
+# include <iostream>
+# include <iomanip>
+
 using namespace std;
 
-int main() {
+int main(){
+    string name = "first_name";
+    char middle_initial = 'D';
+    int age = 20;
+    float GPA = 3.9;
+    cout
+        << name << ", "
+        << middle_initial << ", "
+        << age << ", "
+        << GPA
+        << endl;
 
-    string name = "Firstname Lastname";
-    char middle = 'm';
-    int age;
-    float GPA;
-    
-    cout << name << ", " << "" << "," << middle << ", " << age << "\n\n" << endl;
 
-    return 0;
 }
