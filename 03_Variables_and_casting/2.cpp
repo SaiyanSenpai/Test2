@@ -4,14 +4,15 @@
 using namespace std;
 
 int main(){
-    float length, width;
-    cin >> length >> width;
+	float length, width;
 
-    cout
-        << length << " * "
-        << width  << "\n"
-        << length*width
-        << endl;
+    cout << "Rectangle len & width: ";
+	cin >> length >> width;
 
-    return 0;
+	cout
+		<< length << “ * “ << width << “ = “ << length*width
+		<< endl;
+	
+	
+	return 0;
 }
