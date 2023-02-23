@@ -16,7 +16,21 @@ int main() {
                                     // INTEGER DIVISION
     cout << (10 / 3) << "\n\n";     // if a AND b are integers, return integer
 
+    /* 
+        Float point division:
+            f/i
+            i/f
+            f/f
+            result = f
 
+        int div:
+            int/int = int
+        
+        modular div: 
+            int % int = int
+    */
+
+    
                                     // MODULO DIVISION
     cout << (10 % 3) << "\n\n";     // a and b must be integers for modulo
 
